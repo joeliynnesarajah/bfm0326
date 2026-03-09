@@ -50,9 +50,11 @@ const Navbar = () => {
     <nav className="sticky top-0 z-50 w-full border-b border-border/50 bg-background/80 backdrop-blur-md">
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2">
-          <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-primary text-primary-foreground font-bold text-sm font-['Space_Grotesk']">
-            BFM
-          </div>
+          <img
+            src="/bfm-logo.png"
+            alt="BigFanOfMaths logo"
+            className="h-9 w-9"
+          />
           <span className="text-lg font-bold tracking-tight font-['Space_Grotesk'] text-foreground">
             BigFanofMaths
           </span>

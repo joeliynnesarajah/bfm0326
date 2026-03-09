@@ -11,7 +11,7 @@ const Contact = () => (
         Reach out to us and we'll get back to you as soon as possible.
       </p>
       <p className="mb-8 text-muted-foreground">
-        Email: <a href="mailto:contact@bigfanofmaths.com" className="text-primary hover:underline">contact@bigfanofmaths.com</a>
+        Email: <a href="mailto:bigfanofmathsinfo@gmail.com" className="text-primary hover:underline">bigfanofmathsinfo@gmail.com</a>
       </p>
       <Link to="/" className="text-sm font-medium text-primary hover:underline">
         ← Back to home
