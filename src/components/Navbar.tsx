@@ -51,7 +51,7 @@ const Navbar = () => {
       <div className="mx-auto flex h-16 max-w-6xl items-center justify-between px-4">
         <Link to="/" className="flex items-center gap-2">
           <img
-            src="/bfm-logo.png"
+            src={`${import.meta.env.BASE_URL}bfm-logo.png`}
             alt="BigFanOfMaths logo"
             className="h-9 w-9"
           />
